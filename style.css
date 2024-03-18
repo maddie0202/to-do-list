@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+}
+
+.kalam-light {
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 540px !important;
+  margin: 80px auto;
+  padding: 40px 30px;
+  border-radius: 4px;
+}
+h1 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  margin: 50px !important;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: auto 40px;
+  font-size: 20px;
+}
+
+form {
+  margin: 5px;
+  display: flex;
+  align-items: flex-end;
+}
+.btn {
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+
+  border-color: #dee2e6 !important;
+}
+
+.checkBtn,
+.deleteBtn {
+  background-color: #fff;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.deleteBtn {
+  margin-left: auto;
+  margin-right: 30px;
+}
+.deleteBtn:hover {
+  color: red;
+}
